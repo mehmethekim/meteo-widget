@@ -1,3 +1,5 @@
-import pandas as pd
+import requests
+from MeteoWidget import MeteoWidget
 
-print("Hello World")
+meteo_widget = MeteoWidget(52.91, 21.00)
+print(meteo_widget.get_forecast())
