@@ -1,1 +1,1 @@
-from MeteoWidget.MeteoWidget import MeteoWidget
+from MeteoWidget.MeteoWidget import MeteoWidget, MeteoWidgetConsole

@@ -1,0 +1,1 @@
+from MeteoWidget.GUI import GUI
