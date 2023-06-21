@@ -32,9 +32,15 @@ or
 ```bash
 $ python3 -m venv env
 ```
-Then activate it with;
+For Linux, activate it with;
 ```bash
 $ source env/bin/activate
+```
+For Windows, activate with;
+```bash
+
+PS C:\> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+PS C:\> env\Scripts\activate
 ```
 4. Install requirements
 ```bash
